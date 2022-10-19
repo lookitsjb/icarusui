@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <Label item="BW_Buff0_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>40</LeftAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>1</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff0_Button">
     <ScreenID>Buff0</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -66,6 +87,27 @@
       <R>240</R>
       <G>240</G>
       <B>240</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff1_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>82</LeftAnchorOffset>
+    <RightAnchorOffset>42</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>2</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
@@ -139,6 +181,27 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
   </Label>
+  <Label item="BW_Buff2_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>124</LeftAnchorOffset>
+    <RightAnchorOffset>84</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>3</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff2_Button">
     <ScreenID>Buff2</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -204,6 +267,27 @@
       <R>240</R>
       <G>240</G>
       <B>240</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff3_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>166</LeftAnchorOffset>
+    <RightAnchorOffset>126</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>4</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
@@ -277,6 +361,27 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
   </Label>
+  <Label item="BW_Buff4_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>208</LeftAnchorOffset>
+    <RightAnchorOffset>168</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>5</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff4_Button">
     <ScreenID>Buff4</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -342,6 +447,27 @@
       <R>240</R>
       <G>240</G>
       <B>240</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff5_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>250</LeftAnchorOffset>
+    <RightAnchorOffset>210</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>6</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
@@ -415,6 +541,27 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
   </Label>
+  <Label item="BW_Buff6_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>292</LeftAnchorOffset>
+    <RightAnchorOffset>252</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>7</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff6_Button">
     <ScreenID>Buff6</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -480,6 +627,27 @@
       <R>240</R>
       <G>240</G>
       <B>240</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff7_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>334</LeftAnchorOffset>
+    <RightAnchorOffset>294</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>8</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
@@ -553,6 +721,27 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
   </Label>
+  <Label item="BW_Buff8_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>376</LeftAnchorOffset>
+    <RightAnchorOffset>336</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>9</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff8_Button">
     <ScreenID>Buff8</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -618,6 +807,27 @@
       <R>240</R>
       <G>240</G>
       <B>240</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff9_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>418</LeftAnchorOffset>
+    <RightAnchorOffset>378</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>10</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
@@ -691,6 +901,27 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
   </Label>
+  <Label item="BW_Buff10_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>460</LeftAnchorOffset>
+    <RightAnchorOffset>420</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>11</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff10_Button">
     <ScreenID>Buff10</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -756,6 +987,27 @@
       <R>240</R>
       <G>240</G>
       <B>240</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff11_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>502</LeftAnchorOffset>
+    <RightAnchorOffset>462</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>12</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
@@ -829,6 +1081,27 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
   </Label>
+  <Label item="BW_Buff12_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>544</LeftAnchorOffset>
+    <RightAnchorOffset>504</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>13</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff12_Button">
     <ScreenID>Buff12</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -898,6 +1171,27 @@
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
   </Label>
+  <Label item="BW_Buff13_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>586</LeftAnchorOffset>
+    <RightAnchorOffset>546</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>14</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
   <Button item="BW_Buff13_Button">
     <ScreenID>Buff13</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -963,6 +1257,27 @@
       <R>240</R>
       <G>240</G>
       <B>240</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff14_PHText">
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TopAnchorToTop>true</TopAnchorToTop>
+    <BottomAnchorToTop>true</BottomAnchorToTop>
+    <LeftAnchorOffset>628</LeftAnchorOffset>
+    <RightAnchorOffset>588</RightAnchorOffset>
+    <TopAnchorOffset>10</TopAnchorOffset>
+    <BottomAnchorOffset>40</BottomAnchorOffset>
+    <Font>5</Font>
+    <Text>15</Text>
+    <TextColor>
+      <R>120</R>
+      <G>120</G>
+      <B>120</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
@@ -1090,48 +1405,77 @@
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
+    <Pieces>BW_Buff0_PHText</Pieces>
     <Pieces>BW_Buff0_Button</Pieces>
     <Pieces>BW_Buff0_TextShadow</Pieces>
     <Pieces>BW_Buff0_Text</Pieces>
+
+    <Pieces>BW_Buff1_PHText</Pieces>
     <Pieces>BW_Buff1_Button</Pieces>
     <Pieces>BW_Buff1_TextShadow</Pieces>
     <Pieces>BW_Buff1_Text</Pieces>
+
+    <Pieces>BW_Buff2_PHText</Pieces>
     <Pieces>BW_Buff2_Button</Pieces>
     <Pieces>BW_Buff2_TextShadow</Pieces>
     <Pieces>BW_Buff2_Text</Pieces>
+
+    <Pieces>BW_Buff3_PHText</Pieces>
     <Pieces>BW_Buff3_Button</Pieces>
     <Pieces>BW_Buff3_TextShadow</Pieces>
     <Pieces>BW_Buff3_Text</Pieces>
+
+    <Pieces>BW_Buff4_PHText</Pieces>
     <Pieces>BW_Buff4_Button</Pieces>
     <Pieces>BW_Buff4_TextShadow</Pieces>
     <Pieces>BW_Buff4_Text</Pieces>
+
+    <Pieces>BW_Buff5_PHText</Pieces>
     <Pieces>BW_Buff5_Button</Pieces>
     <Pieces>BW_Buff5_TextShadow</Pieces>
     <Pieces>BW_Buff5_Text</Pieces>
+
+    <Pieces>BW_Buff6_PHText</Pieces>
     <Pieces>BW_Buff6_Button</Pieces>
     <Pieces>BW_Buff6_TextShadow</Pieces>
     <Pieces>BW_Buff6_Text</Pieces>
+
+    <Pieces>BW_Buff7_PHText</Pieces>
     <Pieces>BW_Buff7_Button</Pieces>
     <Pieces>BW_Buff7_TextShadow</Pieces>
     <Pieces>BW_Buff7_Text</Pieces>
+
+    <Pieces>BW_Buff8_PHText</Pieces>
     <Pieces>BW_Buff8_Button</Pieces>
     <Pieces>BW_Buff8_TextShadow</Pieces>
     <Pieces>BW_Buff8_Text</Pieces>
+
+    <Pieces>BW_Buff9_PHText</Pieces>
     <Pieces>BW_Buff9_Button</Pieces>
     <Pieces>BW_Buff9_TextShadow</Pieces>
     <Pieces>BW_Buff9_Text</Pieces>
+
+    <Pieces>BW_Buff10_PHText</Pieces>
     <Pieces>BW_Buff10_Button</Pieces>
     <Pieces>BW_Buff10_TextShadow</Pieces>
     <Pieces>BW_Buff10_Text</Pieces>
+
+    <Pieces>BW_Buff11_PHText</Pieces>
     <Pieces>BW_Buff11_Button</Pieces>
     <Pieces>BW_Buff11_TextShadow</Pieces>
     <Pieces>BW_Buff11_Text</Pieces>
+
+    <Pieces>BW_Buff12_PHText</Pieces>
     <Pieces>BW_Buff12_Button</Pieces>
     <Pieces>BW_Buff12_TextShadow</Pieces>
     <Pieces>BW_Buff12_Text</Pieces>
+
+    <Pieces>BW_Buff13_PHText</Pieces>
     <Pieces>BW_Buff13_Button</Pieces>
     <Pieces>BW_Buff13_TextShadow</Pieces>
     <Pieces>BW_Buff13_Text</Pieces>
+
+    <Pieces>BW_Buff14_PHText</Pieces>
     <Pieces>BW_Buff14_Button</Pieces>
     <Pieces>BW_Buff14_TextShadow</Pieces>
     <Pieces>BW_Buff14_Text</Pieces>
