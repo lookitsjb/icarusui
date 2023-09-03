@@ -3,33 +3,45 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Label item="BW_BankerName">
     <ScreenID>BW_BankerName</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
-      <Y>1</Y>
+      <Y>2</Y>
     </Location>
     <Size>
-      <CX>100</CX>
-      <CY>40</CY>
+      <CX>322</CX>
+      <CY>14</CY>
     </Size>
     <Text>Banker Name</Text>
     <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
     </TextColor>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
-    <AlignRight>false</AlignRight>
   </Label>
+
+	<StaticAnimation item="BW_Seperator1">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>22</X>
+			<Y>16</Y>
+		</Location>
+		<Size>
+			<CX>280</CX>
+			<CY>4</CY>
+		</Size>
+		<Animation>A_DividerMiddle</Animation>
+	</StaticAnimation>
+
+  <!-- Bank Slots -->
   <InvSlot item="BW_BankSlot0">
     <ScreenID>BW_BankSlot0</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>10</X>
-      <Y>32</Y>
+      <X>2</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -42,11 +54,10 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot1">
     <ScreenID>BW_BankSlot1</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>10</X>
-      <Y>72</Y>
+      <X>42</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -59,11 +70,10 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot2">
     <ScreenID>BW_BankSlot2</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>10</X>
-      <Y>112</Y>
+      <X>82</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -76,11 +86,10 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot3">
     <ScreenID>BW_BankSlot3</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>11</X>
-      <Y>152</Y>
+      <X>122</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -93,11 +102,10 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot4">
     <ScreenID>BW_BankSlot4</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>32</Y>
+      <X>162</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -110,11 +118,10 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot5">
     <ScreenID>BW_BankSlot5</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>72</Y>
+      <X>202</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -127,11 +134,10 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot6">
     <ScreenID>BW_BankSlot6</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>112</Y>
+      <X>242</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -144,11 +150,10 @@
   </InvSlot>
   <InvSlot item="BW_BankSlot7">
     <ScreenID>BW_BankSlot7</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>50</X>
-      <Y>152</Y>
+      <X>282</X>
+      <Y>22</Y>
     </Location>
     <Size>
       <CX>40</CX>
@@ -159,6 +164,7 @@
     <ItemOffsetX>2</ItemOffsetX>
     <ItemOffsetY>2</ItemOffsetY>
   </InvSlot>
+
   <Label item="BW_SharedBankLabel">
     <ScreenID>BW_SharedBankLabel</ScreenID>
   </Label>
@@ -170,157 +176,171 @@
   </InvSlot>
   <Button item="BW_SharedMoney0">
     <ScreenID>BW_SharedMoney0</ScreenID>
-  </Button>
+  </Button>  
+
+	<StaticAnimation item="BW_Seperator2">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>22</X>
+			<Y>64</Y>
+		</Location>
+		<Size>
+			<CX>280</CX>
+			<CY>4</CY>
+		</Size>
+		<Animation>A_DividerMiddle</Animation>
+	</StaticAnimation>
+
   <Button item="BW_Money0">
     <ScreenID>BW_Money0</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>11</X>
-      <Y>194</Y>
-    </Location>
-    <Size>
-      <CX>80</CX>
-      <CY>24</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here or click to pick up Platinum</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_PlatinumCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
+		<Location>
+			<X>2</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>24</CY>
+		</Size>
+		<Text>9999</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+			<NormalDecal>A_PlatinumCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
   </Button>
   <Button item="BW_Money1">
     <ScreenID>BW_Money1</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>11</X>
-      <Y>218</Y>
-    </Location>
-    <Size>
-      <CX>80</CX>
-      <CY>24</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here or click to pick up Gold</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_GoldCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
+		<Location>
+			<X>82</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>24</CY>
+		</Size>
+		<Text>9999</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+			<NormalDecal>A_GoldCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
   </Button>
   <Button item="BW_Money2">
     <ScreenID>BW_Money2</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>11</X>
-      <Y>242</Y>
-    </Location>
-    <Size>
-      <CX>80</CX>
-      <CY>24</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here or click to pick up Silver</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_SilverCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
+		<Location>
+			<X>162</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>24</CY>
+		</Size>
+		<Text>9999</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+			<NormalDecal>A_SilverCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
   </Button>
   <Button item="BW_Money3">
     <ScreenID>BW_Money3</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>11</X>
-      <Y>266</Y>
-    </Location>
-    <Size>
-      <CX>80</CX>
-      <CY>24</CY>
-    </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <TooltipReference>Drop coins here or click to pick up Copper</TooltipReference>
-    <Style_Checkbox>false</Style_Checkbox>
-    <Text>60000</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_RecessedBox</Normal>
-      <NormalDecal>A_CopperCoin</NormalDecal>
-    </ButtonDrawTemplate>
-    <DecalOffset>
-      <X>2</X>
-      <Y>2</Y>
-    </DecalOffset>
-    <DecalSize>
-      <CX>18</CX>
-      <CY>18</CY>
-    </DecalSize>
+		<Location>
+			<X>242</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>24</CY>
+		</Size>
+		<Text>9999</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_RecessedBox</Normal>
+			<NormalDecal>A_CopperCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>1</X>
+			<Y>3</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
   </Button>
+  
+	<StaticAnimation item="BW_Seperator3">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>22</X>
+			<Y>96</Y>
+		</Location>
+		<Size>
+			<CX>280</CX>
+			<CY>4</CY>
+		</Size>
+		<Animation>A_DividerMiddle</Animation>
+	</StaticAnimation>
+
   <Button item="BW_ChangeButton">
     <ScreenID>ChangeButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>2</X>
-      <Y>297</Y>
+      <Y>102</Y>
     </Location>
     <Size>
-      <CX>50</CX>
-      <CY>24</CY>
+      <CX>160</CX>
+      <CY>20</CY>
     </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Checkbox>false</Style_Checkbox>
     <Text>Change</Text>
     <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
     </TextColor>
     <ButtonDrawTemplate>
       <Normal>A_BtnNormal</Normal>
@@ -334,20 +354,18 @@
     <ScreenID>DoneButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>55</X>
-      <Y>297</Y>
+      <X>162</X>
+      <Y>102</Y>
     </Location>
     <Size>
-      <CX>40</CX>
-      <CY>24</CY>
+      <CX>160</CX>
+      <CY>20</CY>
     </Size>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Checkbox>false</Style_Checkbox>
     <Text>Done</Text>
     <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
     </TextColor>
     <ButtonDrawTemplate>
       <Normal>A_BtnNormal</Normal>
@@ -369,19 +387,20 @@
       <Y>25</Y>
     </Location>
     <Size>
-      <CX>108</CX>
-      <CY>347</CY>
+      <CX>326</CX>
+      <CY>144</CY>
     </Size>
     <Text>Bank</Text>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_Rounded</DrawTemplate>
+    <DrawTemplate>WDT_Def2</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>BW_BankerName</Pieces>
+    <Pieces>BW_Seperator1</Pieces>
     <Pieces>BW_BankSlot0</Pieces>
     <Pieces>BW_BankSlot1</Pieces>
     <Pieces>BW_BankSlot2</Pieces>
@@ -393,10 +412,12 @@
     <Pieces>BW_SharedBankSlot0</Pieces>
     <Pieces>BW_SharedBankSlot1</Pieces>
     <Pieces>BW_SharedMoney0</Pieces>
+    <Pieces>BW_Seperator2</Pieces>
     <Pieces>BW_Money0</Pieces>
     <Pieces>BW_Money1</Pieces>
     <Pieces>BW_Money2</Pieces>
     <Pieces>BW_Money3</Pieces>
+    <Pieces>BW_Seperator3</Pieces>
     <Pieces>BW_DoneButton</Pieces>
     <Pieces>BW_ChangeButton</Pieces>
     <Pieces>BW_SharedBankLabel</Pieces>

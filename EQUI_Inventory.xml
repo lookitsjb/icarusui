@@ -493,7 +493,6 @@
 	</Button>
 	<Button item="IW_Money1">
 		<ScreenID>IW_Money1</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>82</X>
